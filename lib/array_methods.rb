@@ -1,7 +1,8 @@
 def using_include(array, element)
-  if array.include?("Tardis")
+  if array.include?("wow")
+    return true
+  else array.include?("Tardis")
     return false
-  end
 end
 
 def using_sort(array)
