@@ -3,6 +3,7 @@ def using_include(array, element)
     return true
   else array.include?("Tardis")
     return false
+  end
 end
 
 def using_sort(array)
